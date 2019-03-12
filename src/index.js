@@ -26,7 +26,7 @@ routes.forEach((route, index) => {
   fastify.route(route);
 });
 
-const PORT = 80;
+const PORT = 4500;
 
 // Run the server!
 const start = async () => {
